@@ -1,0 +1,19 @@
+.employeecard{
+    width:25vw;
+    height:50vh;
+    border:2px solid red;
+    margin:20px;
+    float:left
+}
+.employeecard p{
+    font-size:x-large;
+}
+.employeecard img{
+    height: 100px;
+    width:100x;
+    border-radius: 50%;
+}
+.employee video{
+    height:100px;
+    width:100px;
+}

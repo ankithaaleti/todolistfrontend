@@ -1,0 +1,9 @@
+.viewemployee button{
+    position: "fixed"; 
+    width: "100%";
+    display: "flex"; 
+    justify-content: "center"; 
+    gap: "10px";
+    background-color: "white"; 
+    padding: "10px 20px"
+}

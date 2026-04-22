@@ -1,0 +1,27 @@
+.eventhandling{
+    margin-top: 30vh;
+    height:40px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+.eventhandling button{
+    padding:10px 10px;
+    margin-top: 5vh;
+    background-color:blueviolet;
+    color:white;
+    height:30px;
+    width:20vh;
+    font-size:large
+}
+.eventhandling input[type=text]{
+    margin-top: 5vh;
+    width:50vw;
+    height:10vh;
+    font-size:xx-large;
+}
+.eventhandling p{
+    font-size: x-large;
+    margin-top: 5vh;
+}

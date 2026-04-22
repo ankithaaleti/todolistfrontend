@@ -1,0 +1,13 @@
+.imagecomponent{
+    width:50vw;
+    height:50vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.imagecomponent img{
+    margin-top:8px;
+    margin-left: 10px;
+    width:20vw;
+    height:30vh;
+}

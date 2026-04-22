@@ -1,0 +1,46 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+.app{
+  display:grid;
+  grid-template-columns:120px 1fr;
+  grid-template-areas:
+  "header header"
+  "sidebar mainpage"
+  "footer footer"
+}
+.app header{
+  grid-area:header;
+  height:12vh;
+  background-color: bisque;
+  color:black;
+  text-align:center;
+  font-size: xx-large;
+}
+.app main{
+  grid-area:mainpage;
+  height:80px;
+}
+.app aside{
+  grid-area:sidebar;
+  height:80vh;
+  background-color: brown;
+  color:white;
+}
+.app aside ul li{
+  font-size:xx-large;
+  margin:20px
+}
+.app aside ul{
+  margin-left: 10px;
+  list-style-type:none;
+
+}
+.app footer{
+  grid-area:footer;
+  height:8vh;
+  color:blue;
+  text-align:center;
+  font-size: x-large;
+}

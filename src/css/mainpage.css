@@ -1,0 +1,12 @@
+.mainpage{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.mainpage button{
+    margin-top:5px;
+    margin-left:10px;
+}
+
+
